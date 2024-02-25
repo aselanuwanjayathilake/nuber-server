@@ -1,7 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import { buildApp } from './app';
-import AppDataSource from './ormconfig';
+import AppDataSource from './ormConfig';
 
 dotenv.config();
 const app = express();
